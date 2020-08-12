@@ -125,7 +125,7 @@ deploy_aar
   chmod 777 deploy.sh 
   ```
 
-* 部署成果效果图，已晓成绩项目为例
+* 部署成果效果图
 
   <img src="/Users/jiangzhiguo/develop/learning/md/image/flutter_maven.png" alt="flutter_maven" style="zoom:25%;" />
 
