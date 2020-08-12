@@ -105,8 +105,8 @@ deploy_aar
   <servers>
       <server>
         <id>nexus</id>
-        <username>develop</username>
-        <password>xinkb123!@#</password>
+        <username>用户名</username>
+        <password>密码</password>
       </server>
     </servers>
   ```
