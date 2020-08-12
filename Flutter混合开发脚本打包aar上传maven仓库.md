@@ -32,7 +32,7 @@
 
   如图表示配置成功
 
-  <img src="/Users/jiangzhiguo/develop/learning/md/image/apache_maven.png" alt="apache_maven" style="zoom:67%;" />
+  <img src="https://github.com/jeremyjiangzg/Document/raw/master/image/apache_maven.png" alt="apache_maven" style="zoom:25%;" />
 
 #### 2.编译aar产物并查看pom依赖信息
 
@@ -44,13 +44,13 @@
 
 * 查看产物pom文件配置，需要对flutter第三方库依赖的产物aar分别上传maven仓库，如图：
 
-  <img src="/Users/jiangzhiguo/develop/learning/md/image/flutter_output.png" alt="flutter_output" style="zoom:25%;" />
+  <img src="https://raw.githubusercontent.com/jeremyjiangzg/Document/master/image/flutter_output.png" alt="flutter_output" style="zoom:25%;" />
 
-  <img src="/Users/jiangzhiguo/develop/learning/md/image/flutter_dependency_01.png" alt="flutter_dependency_01" style="zoom:25%;" />
+  <img src="https://github.com/jeremyjiangzg/Document/raw/master/image/flutter_dependency_01.png" alt="flutter_dependency_01" style="zoom:25%;" />
 
-  <img src="/Users/jiangzhiguo/develop/learning/md/image/flutter_dependency_02.png" alt="flutter_dependency_02" style="zoom:25%;" />
+  <img src="https://github.com/jeremyjiangzg/Document/raw/master/image/flutter_dependency_02.png" alt="flutter_dependency_02" style="zoom:25%;" />
 
-  <img src="/Users/jiangzhiguo/develop/learning/md/image/flutter_dependency_03.png" alt="flutter_dependency_03" style="zoom:25%;" />
+  <img src="https://github.com/jeremyjiangzg/Document/raw/master/image/flutter_dependency_03.png" alt="flutter_dependency_03" style="zoom:25%;" />
 
 
 
@@ -125,9 +125,9 @@ deploy_aar
   chmod 777 deploy.sh 
   ```
 
-* 部署成果效果图
+* 部署成果效果图，已晓成绩项目为例
 
-  <img src="/Users/jiangzhiguo/develop/learning/md/image/flutter_maven.png" alt="flutter_maven" style="zoom:25%;" />
+  <img src="https://github.com/jeremyjiangzg/Document/raw/master/image/flutter_maven.png" alt="flutter_maven" style="zoom:25%;" />
 
 ##### 参考地址
 
