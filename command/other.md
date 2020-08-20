@@ -15,6 +15,7 @@ which flutter
 //列出所有别名
 alias
 
+
 //取消别名
 unalias [别名]
 
