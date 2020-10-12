@@ -10,9 +10,7 @@ drozer的基本功能就是通过分析AndroidManifest.xml，看四大组件中�
 
 * 下载Mac版安装文件drozer(Python.whl)，如图
 
-  <img src="https://github.com/jeremyjiangzg/Document/raw/master/image/drozer.png" alt="apache_maven" style="zoom:25%;" />
-
-  <img src="https://github.com/jeremyjiangzg/Document/raw/master/image/drozer.png" alt="apache_maven" style="zoom:25%;" />
+  <img src="https://github.com/jeremyjiangzg/Document/raw/master/image/drozer.png" alt="drozer" style="zoom:25%;" />
 
 * 打开终端，安装pip
 
@@ -69,7 +67,7 @@ xcode-select --install
 
   出现如图所示，表示成功
 
-  <img src="https://github.com/jeremyjiangzg/Document/raw/master/image/drozer_install_success.png" alt="apache_maven" style="zoom:25%;" />
+  <img src="https://github.com/jeremyjiangzg/Document/raw/master/image/drozer_install_success.png" alt="drozer_install_success" style="zoom:25%;" />
 
 * 使用app.package.info模块查看apk基本信息（package_name指的是你需要检测的APP包名)
 
