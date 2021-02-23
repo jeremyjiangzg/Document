@@ -1,3 +1,6 @@
 ##### 1、型变
 
-![morph](/Users/jiangzhiguo/develop/github/Document/image/morph.png)
+
+
+<img src="https://raw.github.com/jeremyjiangzg/Document/master/image/morph.png" alt="flutter_output" style="zoom:50%;" />
+
