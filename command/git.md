@@ -77,3 +77,19 @@ echo "directory" >> .git/info/sparse-checkout
 git pull origin master
 ```
 
+#### 删除远程文件夹
+
+```
+#方法一 以删除test文件夹为例
+git rm -r --cached test //--cached不会把本地的test删除
+git commit -m 'delete test dir'
+git push -u origin master
+
+#方法二
+#如果误提交的文件夹比较多，方法一也较繁琐直接修改.gitignore文件,将不需要的文件过滤掉，然后执行命令
+git rm -r --cached .
+git add .
+git commit
+git push -u origin master
+```
+
