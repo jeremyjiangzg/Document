@@ -66,3 +66,33 @@ pub global deactivate <package>
 mdfind -name 关键字
 ```
 
+#### 5、Window下配置SSH
+
+```
+1、下载安装git
+2、在文件夹空白处右击，打开git bash窗口
+3、生成秘钥
+   #输入命令，并一路回车。 -C是用来识别这个密钥的注释
+   ssh-keygen -t rsa -C "bread@food.com"
+4、用记事本打开公钥，并复制（默认路径为C:\Users\用户名\.ssh\id_rsa.pub）
+5、添加公钥
+   登录GitLab网站，右上角头像 -> Settings -> SSH Keys中，添加复制的文本
+6、使用ssh方式clone项目
+   git clone ssh://git@192.168.111.222:5678/tom/demo.git
+   下载过程中，出现如下提示时，需要输入yes
+   ECDSA key fingerprint is SHA256:XXXXXX.
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+7、配置用户名和邮箱（若不配置，在VSCode中提交代码会报错）
+  git config --global user.name "Your Name"
+  git config --global user.email "you@example.com"
+   
+```
+
+##### 6、android studio Build Output控制台输出中文乱码问题
+
+```
+Help->Edit Custom CM Options
+如果之前没有配置过，会弹出窗口问是否创建配置文件，点击Create
+-Dfile.encoding=UTF-8
+```
+
