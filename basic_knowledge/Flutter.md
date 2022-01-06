@@ -10,5 +10,7 @@
   import 'package:lib2/lib2.dart' hide foo;
   ```
 
-  
 
+#### 2、Flutter package
+
+* 骨架屏 [shimmer](https://pub.dev/packages/shimmer)
