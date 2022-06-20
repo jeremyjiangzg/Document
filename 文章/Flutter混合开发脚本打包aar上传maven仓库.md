@@ -249,3 +249,13 @@ cd ../
 
 
 
+#### 问题反馈
+
+```
+1、./androidFlutter.sh没有权限
+解决方法：chmod 777 ./androidFlutter.sh
+
+2、Kotlin could not find the required JDK tools in the Java installation
+解决方法：将Java环境切换到自己安装的Java SDK上。打开.bash_profile文件，在文件中写入如下配置，然后执行source .bash_profile，然后在去执行编译，发现问题解决。注意需要关闭之前编译的窗口重新打开或者在source一次环境变量
+JAVA_HOME="/Library/Java/JavaVirtualMachines/jdk1.8.0_321.jdk/Contents/Home"
+```

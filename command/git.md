@@ -93,3 +93,13 @@ git commit
 git push -u origin master
 ```
 
+#### git clone指定目录
+
+```
+git init
+git remote add origin  远程仓库地址
+git config core.sparsecheckout true
+echo "子目录名称" >> .git/info/sparse-checkout
+git pull origin master
+```
+

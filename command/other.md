@@ -88,6 +88,33 @@ Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
    
 ```
 
+#### 5、Mac下配置SSH
+```
+1 、检查.ssh文件夹是否存在
+
+$ ls -al ~/.ssh
+
+2、如果不存在新建.ssh文件平
+
+$ mkdir ~/.ssh
+
+3、生成KEY在命令行中输入，your_email@example.com换成自己人Email。
+
+$ cd ~/.ssh
+
+$ ssh-keygen -t rsa -C "your_email@example.com"
+
+系统提示输入文件保存位置等信息，连续按三次回车即可，生成的SSH key文件的保存路径会在终端中给出：id_rsa          id_rsa.pub
+
+4、查看公钥
+
+$ cat id_rsa.pub
+
+5、将公钥复制过程剪贴板
+
+$ pbcopy <id_rsa.pub 
+```
+
 ##### 6、android studio Build Output控制台输出中文乱码问题
 
 ```
